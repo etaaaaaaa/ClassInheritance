@@ -1,4 +1,5 @@
-import Character, {Bowman, Swordsman, Magician, Undead, Zombie, Daemon} from "./index";
+import Character, {Swordsman, Magician, Undead, Zombie, Daemon} from "./index";
+import Bowman from "./Bowman"
 
 test('test ', () => {
     expect(new Bowman("Name", "Bowman")).toEqual({name: "Name", type: "Bowman", health:100, level:1, attack:25, defence:25});
